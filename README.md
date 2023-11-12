@@ -10,10 +10,12 @@ Comparing star histories made easy.
    ```bash
    npx starhistory
    ```
-2. Input the URLs of the GitHub repositories you want to compare.
-3. Hit Ctrl+D to finish your input.
-4. Decide whether to launch into the stars! (Just say 'y' or 'yes' when prompted.)
-5. Then you will jump to the amazing star history comparison page! 🎉
+2. Input the URLs of the GitHub repositories you want to compare (separated by spaces, newlines, or most other things like commas, etc.)
+3. Hit Ctrl+D to finish your input
+4. Decide whether to launch into the stars (Just say 'y' or 'yes' when prompted.)
+5. Then you will jump to the amazing star history comparison page
+
+enjoy! 🎉
 
 ## Notice
 
