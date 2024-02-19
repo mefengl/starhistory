@@ -1,7 +1,7 @@
 {
   "name": "starhistory",
   "type": "module",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Comparing star histories made easy.",
   "author": "mefengl",
   "license": "MIT",
@@ -30,11 +30,11 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "get-urls": "^11.0.0",
-    "open": "^9.1.0"
+    "get-urls": "^12.1.0",
+    "open": "^10.0.3"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^1.1.1",
-    "eslint": "^8.53.0"
+    "@antfu/eslint-config": "^2.6.4",
+    "eslint": "^8.56.0"
   }
 }
