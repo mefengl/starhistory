@@ -54,8 +54,8 @@ async function processInput() {
     console.log('StarHistory Link:')
     console.log(starHistoryLink)
 
-    const answer = await askQuestion('Do you want to open the link? (yes/no) ')
-    if (answer.toLowerCase() === 'y' || answer.toLowerCase() === 'yes')
+    const answer = await askQuestion('Do you want to open the link? (yes/no, default is yes) ')
+    if (answer.toLowerCase() !== 'n' && answer.toLowerCase() !== 'no')
       await open(starHistoryLink)
   }
   catch (error) {
