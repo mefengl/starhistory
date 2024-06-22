@@ -1,7 +1,7 @@
 {
   "name": "starhistory",
   "type": "module",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Comparing star histories made easy.",
   "author": "mefengl",
   "license": "MIT",
