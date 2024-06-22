@@ -19,20 +19,6 @@ function generateStarHistoryLink(githubUrls) {
   return `https://star-history.com/#${repoPaths.join('&')}`
 }
 
-async function askQuestion(query) {
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  })
-
-  return new Promise((resolve) => {
-    rl.question(query, (answer) => {
-      rl.close()
-      resolve(answer)
-    })
-  })
-}
-
 async function processInput() {
   const inputRl = readline.createInterface({
     input: process.stdin,
@@ -54,9 +40,7 @@ async function processInput() {
     console.log('StarHistory Link:')
     console.log(starHistoryLink)
 
-    const answer = await askQuestion('Do you want to open the link? (yes/no, default is yes) ')
-    if (answer.toLowerCase() !== 'n' && answer.toLowerCase() !== 'no')
-      await open(starHistoryLink)
+    await open(starHistoryLink)
   }
   catch (error) {
     console.error(`An error occurred: ${error.message}`)
